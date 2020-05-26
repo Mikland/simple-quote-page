@@ -1,3 +1,15 @@
+/*===TASK===
+
+Ha mobilra váltasz, a szöveg túl nagy, nehezen olvasható, és nem igazán jól pozicionált.
+Magasabb felbontáson és nagyobb monitorokon az idézet túl magasra csúszik az oldalon, amitől a design amatőr benyomást kelt. (Különösen problémás ez az 1920x1080 pixeles felbontáson, ami a világ egyik leggyakoribb képernyőfelbontása.)
+Az egész oldalra ráférne egy refaktorálás a mobile-first elvek alapján.
+És végül, ha szuper-jófejnek érzed magad, akkor megkereshetnéd az idézetet más nyelveken is, és rakhatnál egy nyelvválasztót az oldal aljára. Így a látogatóid a saját nyelvükön élvezhetnék a szöveget.
+Egy egyszerű megoldása a legutolsó pontnak, ha megcsinálod az oldalt különböző nyelveken, és egy egyszerű nav elemmel összekötöd őket. Ehhez persze kell valamennyit kutatnod (hogyan köss össze HTML-oldalakat), de ez a tudás a későbbiekben is jól jöhet még.
+
+Ahogy dolgozol ezeken a kihívásokon, ne feledd el a Git segítségével követni a változtatásaid.
+
+*/
+
 body {
   box-sizing: border-box;
   background-image: url("assets/freedom.jpg");
